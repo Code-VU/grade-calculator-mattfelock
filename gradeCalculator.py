@@ -14,6 +14,8 @@ def calculateGrade():
         print("D")
     elif score < 0.6:
         print("F")
+    elif score > 1.0:
+        print("score out of range")
 
     # end assignment
 
